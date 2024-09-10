@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int n,i;
+	printf("B.tharunkumar-192210232\n");
+	printf("Enter an integer : ");
+	scanf("%d",&n);
+	
+	
+	for(i=1;i<=n;i++)
+	{
+	if(n%i==0)
+	{
+	     printf("an integer is a prime");
+	     break;
+	}
+     else
+	{
+	     printf("an integer is not a prime");
+	     break;
+	}
+  }
+    
+}
